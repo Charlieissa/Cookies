@@ -1,0 +1,65 @@
+/* Add your global styles here if needed */
+
+.navbar {
+  padding: 10px 0;
+  color: white;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.menu-icon {
+  cursor: pointer;
+  display: none; /* Hide on larger screens */
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+  background-color: #fac4c454; /* Background color for li elements */
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+.nav-links:hover {
+  color: #ffc107;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    flex-direction: row;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px;
+  }
+}

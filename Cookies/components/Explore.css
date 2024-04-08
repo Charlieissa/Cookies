@@ -1,0 +1,81 @@
+.card-album {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 16px;
+  height: 50%;
+}
+
+.floating-card {
+  flex: 0 0 auto; /* Do not grow or shrink; maintain original size */
+  margin-right: 16px; /* Adjust margin as needed */
+}
+
+/* Optional: hide horizontal scrollbar */
+.card-album::-webkit-scrollbar {
+  display: none;
+}
+
+.card-album::-webkit-scrollbar {
+  width: 15px; /* WebKit (Chrome, Safari) - specify scrollbar width */
+  height: 15px; /* WebKit (Chrome, Safari) - specify scrollbar height */
+}
+.scroll-button {
+  background-color: rgba(247, 0, 255, 0.3);
+  height: 200px;
+  position: absolute;
+  top: 100%; /* Adjust the position from the top as needed */
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.wrapper-div {
+  display: flex;
+  margin-top: 50;
+}
+/* Explorer.css */
+
+/* Add general styles here */
+
+/* Mobile styles */
+@media only screen and (max-width: 700px) {
+  .recipe-button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .card-album {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+
+  .scroll-button {
+    margin-right: 0px;
+    width: 20px;
+  }
+
+  .floating-card {
+    margin: 0 10px;
+    width: 80%;
+  }
+}
+
+/* Add media query for screens smaller than 600px (adjust as needed) */
+@media (max-width: 600px) {
+  .scroll-button {
+    /* Apply styles specific to mobile */
+    display: none; /* Show the buttons */
+  }
+}
+
+/* Add styles for screens larger than 600px (adjust as needed) */
+@media (min-width: 601px) {
+  .scroll-button {
+    /* Apply styles specific to non-mobile */
+    display: block; /* Show the buttons */
+  }
+}

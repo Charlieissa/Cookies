@@ -1,0 +1,43 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-style:hover {
+  transform: translateY(-20px);
+  transition: 0.8s;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.432); /* Add a subtle shadow on hover */
+}
+
+.card-style {
+  width: 90%;
+  max-width: 350px;
+  margin: 10px;
+  background-color: rgba(110, 153, 238, 0.384);
+  border: 2px solid #3498db6b;
+  overflow: hidden;
+}
+
+.recipe-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 800px;
+  background-color: rgba(110, 153, 238, 0.76);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.recipe-button:hover {
+  background-color: #ffffff93;
+  transition: 0.7s;
+  transform: scale(1.05);
+}

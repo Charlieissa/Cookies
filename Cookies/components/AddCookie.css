@@ -1,0 +1,24 @@
+/* Default styles for the <div> */
+
+.form-container {
+  margin-right: 200px;
+  padding-top: 20px;
+}
+
+/* Media query for screens 600px and below */
+@media screen and (max-width: 700px) {
+  .main-content {
+    padding: 5px; /* Adjust padding for smaller screens */
+    width: 100%;
+  }
+  .form-container {
+    margin-right: 0px;
+    padding-top: 0px;
+  }
+  @media only screen and (max-width: 600px) {
+    .ant-form-item-control-wrapper {
+      margin-left: 25%; /* Offset: 3 columns * 8.33% each */
+      width: 75%; /* Remaining width after offset */
+    }
+  }
+}
