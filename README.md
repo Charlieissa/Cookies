@@ -15,4 +15,4 @@ Features
 
 ## Video Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VEavSr-zB1k" frameborder="0" allowfullscreen></iframe>
+[![Video Demonstration](https://img.youtube.com/vi/VEavSr-zB1k/0.jpg)](https://www.youtube.com/watch?v=VEavSr-zB1k)
