@@ -15,5 +15,4 @@ Features
 
 ## Video Demonstration
 
-<iframe width="560" height="315" src="https://youtu.be/VEavSr-zB1k" frameborder="0" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VEavSr-zB1k" frameborder="0" allowfullscreen></iframe>
